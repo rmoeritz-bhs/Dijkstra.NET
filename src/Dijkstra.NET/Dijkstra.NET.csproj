@@ -1,15 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.79" />
+	
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.3;net40</TargetFrameworks>
-    <Version>1.2.1</Version>
-    <Authors>Mateusz Mazurek</Authors>
+	<TargetFramework>net6.0</TargetFramework>
+    <Version>2.0.0</Version>
+    <Authors>Mateusz Mazurek, Ralph Möritz</Authors>
     <Company />
     <Description>Graph processing library.</Description>
-    <PackageProjectUrl>https://github.com/matiii/Dijkstra.NET</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/matiii/Dijkstra.NET</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/rmoeritz-bhs/Dijkstra.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rmoeritz-bhs/Dijkstra.NET</RepositoryUrl>
     <PackageTags>graphs graph-theory dijkstra page-rank</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>10</LangVersion>
   </PropertyGroup>
 </Project>

@@ -1,8 +1,7 @@
-﻿using System;
-using Dijkstra.NET.Graph;
+﻿using Dijkstra.NET.Graph;
 using Dijkstra.NET.ShortestPath;
 
-namespace Dijkstra.Net40
+namespace Dijkstra.Net60
 {
     class Program
     {
@@ -10,7 +9,7 @@ namespace Dijkstra.Net40
         {
             var graph = new Graph<int, string>() + 1 + 2;
 
-            bool connected = graph >> 1 >> 2 >> 5 ^ "edge information"; 
+            bool connected = graph >> 1 >> 2 >> 5 ^ "edge information";
 
             var immutablePath = graph.Dijkstra(1, 2);
 

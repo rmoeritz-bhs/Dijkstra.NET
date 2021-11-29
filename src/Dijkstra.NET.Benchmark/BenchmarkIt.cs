@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Attributes.Jobs;
+﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Engines;
 using Dijkstra.NET.PageRank;
 using Dijkstra.NET.ShortestPath;
@@ -36,7 +33,7 @@ namespace Dijkstra.NET.Benchmark
 
             return result.GetPath().Count();
         }
-        
+
         [Benchmark]
         public double PageRankExtensionBenchmark()
         {
